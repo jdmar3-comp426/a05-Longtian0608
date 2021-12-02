@@ -1,0 +1,66 @@
+body {
+    background-color:#bbb;
+    color:#000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+div.content {
+    margin: 50px 50px 100px 100px;
+}
+div.content h1 {
+    color:navy;
+    font: 1.5em Arial, Helvetiica, sans-serif;
+    font-weight:bold;
+    border-bottom-style:solid;
+    border-color:darkslategray;
+}
+div.content p, figcaption{
+    font-size:1.1em;
+}
+figure {
+    text-align: center;
+    display: block;
+}
+
+figure img {
+    width: 40%;
+    height:50%;
+    border-radius:5px;
+}
+
+div.header {
+    font-weight:bold;
+    font-size: 1.2em;
+    border-radius:5px;
+    text-align:center;
+}
+nav {
+    border-radius:5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0 0 0 60px;
+}
+
+nav ul li{
+    display:inline;
+}
+
+nav ul li a {
+    border-width: 0 0 5px 0;
+    border-color:darkblue;
+    font-weight:bold;
+    color:slategrey;
+}
+nav ul li a:hover {
+    border-style: none none solid none;
+}
+nav ul li a:visited {
+    color:slateblue;
+}
+
+nav ul li a#thispage {
+    border-style: solid;
+    border-color:yellow;
+  } 
+
+
+
